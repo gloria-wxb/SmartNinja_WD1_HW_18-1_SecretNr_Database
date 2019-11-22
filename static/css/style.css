@@ -1,0 +1,51 @@
+body {
+    background-color: black;
+    text-align: center;
+    font-family: sans-serif;
+    padding-top: 50px;
+}
+
+.container {
+    width: 40%;
+    height: 200px;
+    background-color: ivory;
+    margin: 0 auto;
+    padding: 50px 20px;
+    outline: 8px dashed red;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+button {
+    all: unset;
+    margin-top: 20px;
+}
+
+input {
+    padding: 5px;
+    width: 25%;
+    height: 25%;
+    text-align: center;
+}
+
+a:link,
+a:visited,
+button {
+    text-decoration: none;
+    background-color: red;
+    padding: 10px 15px;
+    color: white;
+    border-radius: 5%;
+}
+
+a:hover,
+button:hover {
+    background-color: firebrick;
+}
+
+a:active,
+button:active {
+    background-color: darkred;
+}
+

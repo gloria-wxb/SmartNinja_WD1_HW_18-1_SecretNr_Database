@@ -1,0 +1,18 @@
+{% extends "base.html" %}
+
+{% block title %}Result{% endblock title %}
+
+{% block content %}
+
+{% if correct %}
+    <h2>{{correct_hl}}</h2>
+    <p>{{correct}}</p>
+
+    <p><a href="/">Play new game</a></p>
+
+{% else %}
+    <p>{{message}}</p>
+    <p><a href="/">Guess again</a></p>
+{% endif %}
+
+{% endblock content %}
